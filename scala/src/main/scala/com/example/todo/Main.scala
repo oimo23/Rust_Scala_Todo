@@ -39,7 +39,7 @@ object Main extends App {
   }
 
   val host = "0.0.0.0"
-  val port = sys.env.getOrElse("PORT", "8080").toInt
+  val port = sys.env.getOrElse("PORT", "8001").toInt
 
   val bindingFuture = Http().newServerAt(host, port).bind(routes)
 

@@ -7,7 +7,15 @@
       "Bash(cargo:*)",
       "Bash(mkdir:*)",
       "Bash(docker-compose up:*)",
-      "Bash(docker-compose:*)"
+      "Bash(docker-compose:*)",
+      "Bash(chmod:*)",
+      "Bash(curl:*)",
+      "Bash(unzip:*)",
+      "Bash(cp:*)",
+      "Bash(rm:*)",
+      "Bash(docker build:*)",
+      "Bash(mv:*)",
+      "Bash(true)"
     ],
     "deny": []
   }

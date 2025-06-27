@@ -25,6 +25,6 @@ COPY src/ src/
 # Build the application
 RUN sbt -J-Xmx1024M -J-Xms512M stage
 
-EXPOSE 8080
+EXPOSE 8001
 
 CMD ["target/universal/stage/bin/todo-scala"]

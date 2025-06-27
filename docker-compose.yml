@@ -11,6 +11,13 @@ services:
   todo-scala:
     build: ./scala
     ports:
-      - "8080:8080"
+      - "8001:8080"
     environment:
       - PORT=8080
+
+  todo-java:
+    build: ./java
+    ports:
+      - "8003:8003"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
